@@ -1,0 +1,12 @@
+
+package_id,package_name,destination,country,duration_days,duration_nights,hotel_category,transport,meals,activities,price_inr,package_type,description
+PKG001,Paris Explorer,Paris,France,5,4,4 Star Hotel,Flight,Breakfast,Eiffel Tower and City Sightseeing,75000,International,Cultural and city exploration
+PKG002,London Discovery,London,United Kingdom,6,5,3 Star Hotel,Flight,Breakfast,Buckingham Palace and London Eye,95000,International,Explore famous London attractions
+PKG003,Rome Heritage Tour,Rome,Italy,5,4,4 Star Hotel,Flight,Breakfast,Colosseum and Vatican City,85000,International,Historical and cultural experience
+PKG004,Bali Beach Escape,Bali,Indonesia,5,4,4 Star Resort,Flight,Breakfast,Beaches and Waterfalls,55000,International,Relaxing tropical holiday
+PKG005,Dubai Luxury Holiday,Dubai,United Arab Emirates,4,3,5 Star Hotel,Flight,Breakfast,Desert Safari and Burj Khalifa,65000,International,Luxury city experience
+PKG006,Tokyo Adventure,Tokyo,Japan,7,6,4 Star Hotel,Flight,Breakfast,Mount Fuji and City Tour,110000,International,Japanese culture and adventure
+PKG007,Kerala Backwater Tour,Alleppey,India,3,2,3 Star Resort,Car,Breakfast and Dinner,Houseboat and Backwater Cruise,12000,Domestic,Kerala backwater experience
+PKG008,Munnar Hill Station,Munnar,India,3,2,3 Star Hotel,BUS,Breakfast,Tea Gardens and Hill Viewpoints,9500,Domestic,Nature and mountain holiday
+PKG009,Jaipur Royal Tour,Jaipur,India,3,2,4 Star Hotel,Car,Breakfast,Amber Fort and City Palace,14000,Domestic,Explore Rajasthan heritage
+PKG010,Goa Beach Holiday,Goa,India,4,3,3 Star Resort,Car,Breakfast,Beach Visit and Water Sports,16000,Domestic,Beach and leisure holiday
