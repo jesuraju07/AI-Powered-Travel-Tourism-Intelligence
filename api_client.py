@@ -1,7 +1,11 @@
 
+import os
 import requests
 
-API_BASE_URL = "http://127.0.0.1:8000"
+API_BASE_URL = os.getenv(
+    "API_BASE_URL",
+    "http://127.0.0.1:8000"
+)
 
 
 def check_api_connection():
@@ -11,7 +15,6 @@ def check_api_connection():
             f"{API_BASE_URL}/health",
             timeout=10
         )
-
         response.raise_for_status()
         return response.json()
 
@@ -27,7 +30,6 @@ def get_data(endpoint, params=None):
             params=params,
             timeout=30
         )
-
         response.raise_for_status()
         return response.json()
 
@@ -43,7 +45,6 @@ def post_data(endpoint, payload):
             json=payload,
             timeout=30
         )
-
         response.raise_for_status()
         return response.json()
 
